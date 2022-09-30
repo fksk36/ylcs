@@ -1,0 +1,3 @@
+#! /bin/sh
+
+docker run -it --init --rm --cap-add=SYS_ADMIN fksk36/ylcs $1
